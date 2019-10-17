@@ -1,0 +1,1154 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: "gotham_light";
+    src: url('../fonts/gotham_light.eot') format('eot'), url('../fonts/gotham_light.ttf') format('ttf'), url('../fonts/gotham_light.woff') format('woff');
+}
+
+@font-face {
+    font-family: "gotham_bold";
+    src: url('../fonts/gotham_bold.eot') format('eot'), url('../fonts/gotham_bold.ttf') format('ttf'), url('../fonts/gotham_bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: "gotham_book";
+    src: url('../fonts/gotham_book.eot') format('eot'), url('../fonts/gotham_book.ttf') format('ttf'), url('../fonts/gotham_book.woff') format('woff');
+}
+
+@font-face {
+    font-family: "gotham_medium";
+    src: url('../fonts/gotham_medium.eot') format('eot'), url('../fonts/gotham_medium.ttf') format('ttf'), url('../fonts/gotham_medium.woff') format('woff');
+}
+
+body {
+    background: url('../images/subtle_dot.png') repeat;
+}
+
+body{
+    line-height: 1;
+}
+
+div, body, ul, ol, li, p, h5, a, br {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+div {
+    display: block;
+}
+
+.mobileResponsiveNav {
+    display: none;
+}
+
+.slide_1 {
+    position: relative;
+    height: 100%;
+    background: url('../images/bg-slide1.jpg') no-repeat center top ;       
+    background-attachment: fixed;
+    background-size: cover;
+
+    .ulDiv {
+        text-align: center;
+
+        ul {
+            display: inline-block;
+        }
+    }
+}
+
+.slide_1 p, .slide_1 a {
+    color: #fff;
+    text-align: center;
+    word-wrap: break-word;
+    width: 45%;
+    margin: 50px auto;
+}
+.slide_1Cont{
+    padding-top: 185px;
+}
+
+.slide_1 .logo {
+    width : 336px;
+    height: 113px;
+    margin-bottom: 50px;
+    display: block;
+    text-align: center;
+    
+}
+
+.MarginAlign {
+    margin : 0 auto;
+}
+
+.NewSlogan {
+
+    font-family: gotham_light;  
+    font-size: 72px;
+    text-align: center;
+    line-height: 85px;
+    margin-bottom: 50px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.slide1-Cats{
+    margin : 0 auto;
+    height: 30px;
+}
+
+.slide1-Cats li {
+    font-family : gotham_light;
+    color : #fff;
+    font-size: 26px;
+    float: left;
+    text-align : center;
+    line-height: 26px;
+    height : 26px;
+    padding : 0 30px;
+    border-right: 1px solid #cdd8e1;
+}
+
+.slide1-Cats li a {
+    color : #cdd8e1;
+    transition: all 500ms ease;
+}
+
+.slide1-Cats li a:hover {
+    color: #fff;
+}
+
+a, a:hover{
+    text-decoration: none;
+    outline : 0 none;
+    cursor : pointer;
+}
+
+.slide1-Cats li.lastItem {
+    border-right: none;
+}
+
+.headermainwrap{
+    position: absolute;
+    padding: 10px 0;
+    width: 100%;
+    bottom : 0;
+    z-index: 100;
+    transition: all .5s ease;
+    height: 62px;
+}
+
+.stickToTop{
+    min-height : 70px;
+    width: 100%;
+    margin-top : 0;
+    position : fixed;
+    top : 0;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+    display: none;
+
+    .middleLogo{
+        margin: auto;
+        height: 60px;
+    }
+
+    .middleLogo a img {
+        height: 10px;
+        transform: scale(0.1);
+        transition: all 0.5s ease;
+    }
+}
+
+.headermainwrap:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Navbar {
+    font-family: gotham_light;
+    width: fit-content;
+    transition: all 200ms ease 1000ms;
+}
+
+.clearfix {
+    display: block;
+}
+
+.Navbar li {
+    float: left;
+    margin-top: 30px;
+}
+
+.Navbar li a {
+    font-family: gotham_bold;
+    font-size : 16px;
+    margin : 0px 35px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 3px solid transparent;
+}
+
+.Navbar li a:hover {
+    border-bottom: 3px solid #80aa37;
+}
+
+.slide_2 {
+   min-height: 400px;
+   padding-top: 140px;
+   padding-bottom: 115px;
+   /* text-align: center; */
+
+}
+.slide_2 .green-font{
+    color:  #80aa37;
+    font-family: gotham_bold;
+}
+
+.slide_2 p {
+    text-align: center;
+     
+}
+
+.welcome {
+    font-size: 60px;
+    font-family: gotham_light;
+    padding-bottom: 25px;
+    color: #232533;
+}
+
+.slide_2 .about {
+    font-family: gotham_light;
+    font-size: 26px;
+    padding-top: 15px;
+    color: #333;
+    line-height: 35px;
+}
+
+.thryvePartners h5 {
+    margin-top: 60px;
+    font-family: gotham_light;
+    text-align: center;
+    font-size: 25px;
+}
+
+.thryvePartnersLogos {    
+    text-align: center;
+}
+
+.thryvePartnersLogos img {
+    padding: 25px;
+}
+
+.slide_3 {
+    min-height: 910px;
+    background-image: url(../images/blurbg-slide2.jpg);
+    margin-bottom: 140px;
+    background-size: cover;
+
+}
+
+.iconsList {
+    min-height: 910px;
+    align-items: center;    
+}
+
+.featureParent{
+    float: left;
+    width: 33%;
+    height: 910px; 
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.featureParent:nth-child(3){
+    width: calc(100% - 66%);
+}
+
+.featureParent:nth-child(2){
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.featureParent.expanded {
+    transition: all ease 250ms;
+    .icon {
+        height: 250px;
+        width: 250px;
+        margin: auto;
+        margin-top: 100px;
+        transform: scale(0.7);
+        transition: all .5s ease;
+    }
+
+    .info{
+        display: block;
+        transition: all 2s ease;
+    }
+
+    img {
+        display: block;
+        transition: all 2s ease;
+    }
+}
+
+.featureParent.collapsed{  
+    transition: all ease 250ms;  
+    .icon {
+        height: 250px;
+        width: 250px;
+        margin: auto;
+        margin-top: 300px;
+        transition: all .5s ease;
+    }
+
+    .info{
+        display: none;
+        transition: all 2s ease;
+    }
+
+    img {
+        display: none;
+        transition: all 2s ease;
+    }
+}
+
+.featureParent:hover {
+    background-color: #80aa37;
+    transition: all .7s ease;
+    cursor: pointer;
+}
+
+.search {       
+    background: url('../images/featuressprite.png') left no-repeat;    
+}
+
+.video {
+    background: url('../images/featuressprite.png') center no-repeat;
+}
+
+.mobile {
+    background: url('../images/featuressprite.png') right no-repeat;
+}
+
+ .featureParent .header {
+    font-family: gotham_bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.featureParent .info {
+    display: none;
+    font-family: gotham_light;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+ .featureParent img {
+    display: none;
+    border-radius: 100%;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 7px;
+    margin-top: 30px;
+    margin: auto;
+}
+
+ .featureParent img:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.slide_4{
+    min-height: 400px;
+    padding-bottom: 100px;
+}
+
+.whyThryve {
+    font-family: gotham_light;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 45px;
+    color: #232533;
+}
+
+.whyThryveAnswer {
+    font-size: 24px;
+    line-height: 43px;
+    font-family: gotham_book;
+    text-align: center;
+    color: #42444e;
+    max-width: 60%;
+    margin: auto;
+}
+
+.greenLine {
+    border: 2px solid #80aa37;
+    width: 100px;
+    margin: 50px auto;
+}
+
+.thryveMediaToolAds {
+    margin : 50px 15%;
+   
+}
+
+.thryveMediaToolAds li {
+    display: inline-block;
+    width: 23%;
+    font-size: 22px;
+    line-height: 36px;
+    word-wrap: break-word;
+    font-family: gotham_bold;
+    text-align: center;
+    color: #42444e;
+}
+
+.thryveMediaToolAds li div {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.thryveMediaToolAds .revenue {
+    background: url('../images/settingssprite.png') 0 0 no-repeat;   
+}
+
+.thryveMediaToolAds .advertisers {
+    background: url('../images/settingssprite.png') -390px 0 no-repeat;    
+}
+
+.thryveMediaToolAds .customization {
+    background: url('../images/settingssprite.png') -770px 0 no-repeat;
+}
+
+.thryveMediaToolAds .stats {
+    background: url('../images/settingssprite.png') -1156px 0 no-repeat;    
+}
+
+.slide_5 {
+    min-height: 400px;
+    background-color: #eeeff4;
+}
+
+.slide_5 ul {
+    text-align: center;
+}
+
+.slide_5 ul li {
+    display: inline-block;
+    width: 25%;
+    margin: 50px auto;
+    word-wrap: break-word;
+    font-family: gotham_book;
+    text-align: center;
+    color: #42444e;
+    padding: 90px 0;
+}
+
+.slide_5 ul li div {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.slide_5 ul .greenVerticalLine {
+    display: inline-block;
+    border-left: 4px solid #80aa37;
+    height: 450px;    
+    margin: 0 25px;
+}
+
+.slide_5 ul li .reporting{
+    background : url('../images/accountsprite.png') 0 0 no-repeat;   
+}
+
+.slide_5 ul li .accountManagement{
+    background : url('../images/accountsprite.png') -820px 0 no-repeat;
+}
+
+.slide_5 ul li p {
+    word-wrap: break-word;
+    font-family: gotham_book;
+    text-align: center;
+    color: #42444e;
+    font-size: 22px;
+    line-height: 34px;
+}   
+
+.slide_5 .header {
+    font-size: 36px;
+    font-family: gotham_bold;
+    text-transform: capitalize;
+    margin-bottom: 65px;
+}
+
+.slide_6 {
+    background: url('../images/slide6.jpg');
+    min-height: 400px;
+    margin-bottom: 180px;
+    padding-top: 150px;
+}
+
+.slide_6 .header {
+    font-size: 60px;
+    font-family: gotham_bold;
+    word-wrap: break-word;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.slide_6 .subHeader {
+    font-size: 30px;
+    font-family: gotham_bold;
+    word-wrap: break-word;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.slide_6 .info {
+    line-height: 37px;
+    font-family: gotham_book;
+    word-wrap: break-word;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.slide_6 .causeLogo {
+    text-align: center;
+}
+
+.slide_6 .causeLogo img {
+    height: 120px;
+    width: 60%;
+    margin: 100px 0;
+}
+
+.slide_7 {
+    min-height: 600px;
+    margin-bottom: 100px;
+}
+
+.slide_7 p {
+    margin: auto;
+    text-align: center;
+}
+
+.slide_7 .header {
+    color: #000;
+    font-size: 60px;
+    font-family: gotham_light;
+    padding-bottom: 35px;
+}
+
+.slide_7 .info {
+    color: #000;
+    font-size: 24px;
+    line-height: 35px;
+    font-family: gotham_book;
+    margin-bottom: 40px;
+}
+
+.slide_7 .reachUsContainer {
+    text-align: center;
+}
+
+.slide_7 .reachUsContainer .greenVerticalLine {
+    display: inline-block;
+    border-left: 4px solid #80aa37;
+    height: 450px;    
+    margin: 0 25px;
+}
+
+.slide_7 .reachUsContainer form {
+    display: inline-block;
+    
+}
+
+.slide_7 .reachUsContainer form ul li input {
+    height: 24px;
+    padding: 15px;
+    margin: 10px;
+    font-family: gotham_book;
+    width: 340px;
+    font-size: 16px;
+    color: rgb(153,156,167);
+    background: rgb(238,244, 246);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(238, 244, 246);
+    border-image: initial;
+    outline: none;
+    border-radius: 3px;
+    float: left;
+}
+
+.slide_7 .reachUsContainer form ul li .submit {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    cursor: pointer;
+    border-width: 0px;
+    background: rgb(162, 213, 87);
+    height: auto;
+}
+
+.slide_7 .reachUsContainer form ul li textarea {
+    height: 150px;
+    padding: 15px;
+    margin: 10px;
+    float: left;
+    font-family: gotham_book;
+    width: 545px;
+    font-size: 16px;
+    color: rgb(153,156,167);
+    background: rgb(238,244, 246);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(238, 244, 246);
+    border-image: initial;
+    outline: none;
+    border-radius: 3px;
+
+}
+
+.slide_7 .reachUsContainer .contacts {
+    display: inline-block;
+    width: 15%;
+}
+
+.slide_7 .reachUsContainer .form input {
+    display: block;
+}
+
+.slide_7 .contacts .callContainer .callIcon {
+    background: url(../images/contactsprite.png) 0 0 no-repeat;
+    height: 40px;
+    width: 40px;
+    margin: 10px 0;
+}
+
+.slide_7 .contacts .addressContainer .addressIcon {
+    background: url(../images/contactsprite.png) 0 -175px no-repeat;
+    height: 40px;
+    width: 40px;
+    margin: 10px 0;
+}
+
+.slide_7 .contacts .emailContainer .emailIcon {
+    background: url(../images/contactsprite.png) 0 -345px no-repeat;
+    height: 40px;
+    width: 40px;
+    margin: 10px 0;
+}
+
+.slide_7 .contacts .callContainer p, .slide_7 .contacts .addressContainer p, .slide_7 .contacts .emailContainer p {
+    font-size: 16px;
+    font-family: gotham_book;
+    color: #42444e;
+    line-height: 25px;
+    margin-bottom: 65px;
+    text-align: left;
+}
+
+.slide_8{
+    min-height: 500px;
+    background: url('../images/slide8.jpg') no-repeat;
+    background-size: cover;
+}
+
+.slide_8 p {
+    font-size: 120px;
+    font-family: gotham_light;
+    color: #fff;
+    text-align: center;
+    padding: 180px 0;
+}
+
+.slide_9 {
+    min-height: 170px;
+    background-color: rgb(162, 213, 87);
+}
+
+.slide_9 .container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slide_9 .container div {
+    display: inline-block;
+}
+
+.slide_9 .logo p {
+    text-align: left;
+    font-family: gotham_book;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    padding: 5px 5px;
+}
+
+.slide_9 .logo img {
+    text-align: center;
+}
+
+.slide_9 .logo {
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+.slide_9 .social {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.slide_9 .social div {
+    display: block;
+}
+
+.slide_9 .social .socialTitle {
+    line-height: 44px;
+    font-family: gotham-book;
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.slide_9 .social p {
+    display: block;
+}
+
+.slide_9 .social div .copyright{
+    text-align: left;
+    font-family: gotham_medium;
+    font-size: 14px;
+    clear: both;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.slide_9 .social div div{
+    display: inline-block;
+}
+
+.slide_9 .social div .facebook {
+    background: url(../images/socialiconssprite.png) 0 0 no-repeat;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.slide_9 .social div .twitter {
+    background: url(../images/socialiconssprite.png) -60px 0 no-repeat;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.slide_9 .social div .linkedln {
+    background: url(../images/socialiconssprite.png) -122px 0 no-repeat;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width : 1200px) {
+    .slide_1 .headermainwrap {
+        display: none;
+    }
+
+    .slide_1-Cats li {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .stickToTop{
+        display: none !important;
+    }
+
+    .mobileResponsiveNav {
+        display: block;
+        position: fixed;
+        top: 0;
+        min-height: 55px;
+        width: 100%;
+        margin-top: 0;
+        z-index: 9999;
+        background-color: rgba(0,0,0, 0.5);
+    }
+
+    .mobileResponsiveNav div {
+        text-align: center;
+        line-height: 55px;
+    }
+
+    .mobileResponsiveNav div:hover{
+        cursor: pointer;
+    }
+
+    .mobileResponsiveNav div img {
+        vertical-align: middle;
+    }
+
+    .mobileResponsiveNav .navItems {
+        background-color: rgba(162, 213, 87, 0.8);
+        display: none;
+    }
+ 
+    .mobileResponsiveNav .navItems li {
+        text-align: center;
+    }
+
+    .mobileResponsiveNav .navItems li a {
+        font-size: 24px;
+        margin: 0;
+        display: block;
+        line-height: 50px;
+        color: #fff;
+        font-family: gotham_bold;
+    }
+
+    .slide_3 {
+        overflow: hidden;
+        height: auto;
+        background : #eeeff4;
+        margin-bottom: 80px;
+
+        .featureParent{
+            display: block;
+            background: unset;
+            height: unset;
+            width: 100%;
+            margin: unset;
+
+            .icon {
+                margin-top: unset;
+                transform: scale(0.7);
+            }
+
+            .header {
+                color: #000;
+            }
+
+            .info{
+                display: block;
+                color: #000;
+            }
+        }       
+    }    
+
+    .whyThryveAnswer {
+        font-size: 19px;
+        line-height: 36px;
+    }     
+    
+    .thryveMediaToolAds li{
+        width: 45%;
+        margin-top: inherit;
+    }
+
+    .slide_5 ul li {
+        display: block;
+        width: unset;
+        margin: unset;
+    }
+
+    .slide_5 ul .greenVerticalLine {
+        height: unset;
+        border-left: unset;
+        border: 2px solid #80aa37;
+        width: 80%;
+    }
+
+    .slide_5 ul li p {
+        padding: 0 30px;
+    }
+
+    .slide_7 .header {
+        font-size: 36px;
+        padding-bottom: 15px;
+    }
+
+    .slide_7 .info {
+        font-size: 19px;
+        padding: 0 10px;
+    }
+
+    
+}
+
+@media only screen and (max-width : 1000px){
+
+    .slide_7 .reachUsContainer form{
+        display: block;
+        width: unset;
+    }
+
+    .slide_7 .reachUsContainer .greenVerticalLine {
+        display : none;
+    }
+
+    .slide_7 .reachUsContainer .contacts {
+       width: unset;
+    }
+
+    .slide_7 .reachUsContainer form ul li input {
+        width: calc(100% - 60px);
+        float: unset;
+    }
+
+    .slide_7 .reachUsContainer form ul li textarea {
+        width: calc(100% - 60px);
+    }
+
+    .slide_7 .reachUsContainer .contacts div {
+        display: inline-block;
+        margin: 0 15px;
+    }
+
+    .slide_7 .contacts .callContainer p, .slide_7 .contacts .addressContainer p, .slide_7 .contacts .emailContainer p{
+        text-align: center;
+    }
+
+    .slide_9 .logo{
+        margin-right: unset;
+    }
+
+    .slide_9 .social { 
+        margin-left: unset;
+    }
+}
+
+@media only screen and (max-width : 650px){
+    .thryveMediaToolAds li{
+        width: 90%;
+    }
+
+    .slide_1 {
+
+        .slide_1Cont {
+            padding-top: 50px;
+
+            .ulDiv{
+                .slide1-Cats li  {
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+            }
+
+        }
+
+        .NewSlogan{
+            font-size: 25px;
+            line-height: 30px;
+        }
+        p{
+            width: 90%;
+
+        }
+    }
+
+    .slide_2 {
+
+        padding-bottom: 50px;
+        .welcome {
+            font-size: 40px;
+        }
+
+        .about{
+            font-size: 18px;
+            line-height: 25px;
+            padding:15px;
+        }
+
+        .thryvePartners{
+            .thryvePartnersLogos{
+                img{
+                    padding : 10px 15px;
+                }
+            }
+        }
+    }
+
+    .slide_4 {
+        .whyThryve{
+            font-size: 33px;
+        }
+
+        .whyThryveAnswer{
+            font-size: 18px;
+            line-height: 32px;
+            max-width: 90%;
+        }
+
+        .thryveMediaToolAds{
+            margin: 10px;
+
+            li{
+                width: 100%;
+                font-size: 18px;
+                line-height: 30px;
+
+                div {
+                    height: 90px;
+                    width: 20%;
+                }
+            }
+        }
+    }
+
+    .slide_5 {
+        ul {
+            li{
+                padding: 45px 0;
+                div{
+                    transform: scale(0.7);
+                    width: 110px;
+                    height: 110px;
+                }
+                p{
+                    padding: 0 20px;
+                    font-size: 18px;
+                    line-height: 30px;
+                }
+            }
+        }
+
+        .header{
+            font-size: 23px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .slide_6 {
+
+        padding-top: 60px;
+        margin-bottom: 50px;
+        .header{
+            font-size: 35px;
+            margin-bottom: 25px;
+
+        }
+
+        .subHeader {
+            font-size: 20px;
+            margin-bottom: 25px;
+
+        }
+
+        .info {
+            line-height: 30px;
+            font-size: 18px;
+            width: 90%;
+        }
+        .causeLogo {
+            img {
+                content: url('../images/cause-logos-por.png');
+                width: 90%;
+                margin: 20px 0;
+            }
+        }
+    }
+
+    .slide_7 {
+        margin-bottom: 30px;
+        .reachUsContainer{
+            .contacts {
+                div {
+                    display: block;
+                }
+
+                .callContainer {
+                    .callIcon{
+                        display: inline-block;
+                        width: 20px;
+                    }
+                    p{
+                        margin-bottom: 20px;
+                    }
+                }
+
+                .addressContainer{
+                    .addressIcon{
+                        display: inline-block;
+                    }
+                    p{
+                        margin-bottom: 20px;
+                    }
+                }
+
+                .emailContainer{
+                    .emailIcon{
+                        display: inline-block;
+                    }
+                    p{
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .slide_8 {
+        min-height: unset;
+        p{
+            font-size: 50px;
+            padding: 50px 0;
+        }
+    }
+
+    .slide_9 {
+        .logo {
+            margin-top: 20px;
+        }
+
+        .container {
+            width: 90%;
+        }
+
+        .social {
+            margin-top: 30px;
+
+            .socialTitle{
+                font-size: 20px;
+            }
+            div {
+
+                .facebook{
+                    display: inline-block;
+                }
+
+                .twitter{
+                    display: inline-block;
+                }
+
+                .linkedln{
+                    display: inline-block;
+                }
+
+                div {
+                    display: block;
+                }
+            }
+        }
+    }
+}
